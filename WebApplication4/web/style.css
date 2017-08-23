@@ -1,0 +1,213 @@
+body{
+    background: url('resources/img/bg.jpg') repeat;
+}
+
+.yellow, hr.correct{
+    color: #FFCA28;
+}
+
+.title{
+    letter-spacing: 1px;
+    word-spacing: 0.8px;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 7%;
+    color: #fff;
+}
+
+.right{
+    margin-left: 80%;
+}
+
+
+
+/*index.html*/
+.landing{
+    opacity: 0.9;
+    height: 768px;
+    background: url('resources/img/lan.jpg'); /*This image is edited*/
+    background-size: cover;
+}
+
+.loginwrap{
+    margin-top: 25%;
+}
+
+.login, .btnlog, .signup{
+    padding: 4%;
+    margin: 2%;
+    width:65%;
+}
+
+.signupa{
+    color: #3d5998;
+    font-size:12px;
+}
+
+
+
+
+
+/*topic.jsp*/
+/*control navigation bar*/
+.breadcrumb
+{
+    margin:0px;
+}
+
+.panel{
+    width: 80%;
+}
+
+#toequilibra{
+    text-align: right;
+}
+
+table, table th{
+    text-align: center;
+}
+
+ul{
+   list-style-type: none; 
+ }
+ 
+.topicbtn{
+    font-size: 20px;
+    
+}
+
+.topic{
+    font-size: 20px;
+
+}
+
+.topic a{
+    margin-left: 5%;
+}
+
+#topic{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+/*video.jsp*/
+/*navigation*/
+.navbar{
+    background-color: #175fb4;
+    padding: 2%;
+}
+
+.navbar-header{
+    padding-left: 5%;
+}
+
+.navbar, .nav.navbar-nav.navbar-right li a{
+    color: #fff;
+    font: 15px serif;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    font-size: 20px;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle:hover .icon-bar {
+    border: 1px solid #FFFF00;
+}
+
+.subject {
+    margin-top: -2%;
+    background-color: #3d5998;
+    text-align: center;
+}
+
+.subject a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #FFCA28;
+}
+
+.border{
+    border-left: #fff double;
+    margin-top: -1%;
+}
+
+video.videopg{  
+    width: 100%;
+    height: 240px;
+}
+
+#divBio{
+    display: none;
+}
+
+.videowrap{
+    border: solid 1px rgba(53, 134, 227, 0.5);
+    padding: 1%;
+    margin: 2% 0;
+    font-size: 15px;
+}
+
+.videowrap p{
+    margin-top: 5%;
+}
+
+.quizplay{
+    margin-top: 10%;
+    text-align: right;
+}
+
+.btnplay{
+    background-color: rgba(53, 134, 227, 0.3);
+    color: #000000;
+}
+
+
+/*profile.jsp*/
+body.profile{
+    background-color: #000;
+} 
+
+.prostar1 img{
+    margin-left: 6%;
+}
+
+.prostar2 img{
+    margin-right: 5%;
+}
+
+.probutton{
+    margin-top: 8%;
+    width: 50%;
+    background-color: #252525;
+    color: #fff;
+}
+
+.prodesc{
+    color: #7e7e7e;
+}
+
+
+/*footer*/
+.footer{
+    background-color: #f1f1f1;
+    font-size: 12px;
+    padding: 2%;
+    margin: 2% 0;
+}
+
+.top{
+    font-size: 15px;
+}
+
+
+
